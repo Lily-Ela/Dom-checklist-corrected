@@ -1,0 +1,102 @@
+body {
+    background-image: url('https://www.wppagebuilders.com/wp-content/uploads/2022/10/pastel-gradient-2.jpg');
+    background-size: cover;
+    font-family:'Roboto', sans-serif;
+    font-size: larger;
+}
+
+h2{
+    color:#ea9325;
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+    margin: 10px!important;
+}
+
+
+.product1 {
+    width: 210px;
+    height: 130px;
+}
+
+.plus-btn,.sustraction-btn, .delete-btn, .like-btn{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.Quantity{
+    width: 25px;
+    height: 25px;
+}
+
+.delete-btn, .like-btn{
+    border: none;
+}
+
+
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item{
+    display: flex;
+    background-image: url('https://www.wppagebuilders.com/wp-content/uploads/2022/10/pastel-gradient-7.jpg');
+    justify-content :space-evenly;
+    
+    max-width: 650px;
+
+}
+
+.description{
+    width :110px
+}
+
+.plus-btn, .Quantity, .sustraction-btn, .delete-btn, .Prix_unitaire, .amount{
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.amount{
+    font-weight: bold;
+    
+}
+
+i{ 
+    margin-right: 10px;
+    margin-top: 55px;
+}
+
+
+.product1, .description, .sustraction-btn,.price{
+    margin-right: 20px;
+}
+
+.description, .sustraction-btn,.price{
+    margin-top: 50px;
+}
+
+.TP {
+    background-color:  #ea9325;
+    color: white;
+   
+  
+    font-weight: bolder;
+    
+    
+}
+
+#total-price,#TD {
+    color: white;
+    background-color: #ea9325;
+}
+.container {
+    margin: 25px;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+
+}

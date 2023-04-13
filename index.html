@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9a0719e01.js" crossorigin="anonymous"></script>
+    <style >
+      .red{
+        color:red;
+      }
+    </style>
+    <title>Shopping cart</title>
+    
+
+</head>
+<body>
+  <header>
+    <h2>Shopping cart</h2>
+  </header>
+  
+   <section class="shopping-cart">
+        <!-- Item #1 -->
+        <div class="item">
+            <button class="delete-btn" type="button">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="product1" src="https://st2.depositphotos.com/5060145/8560/v/950/depositphotos_85601084-stock-illustration-hand-drawn-illustration-of-a.jpg">
+            <span class="description">Lavender perfume</span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+            <button class="sustraction-btn" type="button">-</button>
+            <span class="Prix_unitaire">20</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p1">20 </span>
+        </div>
+
+         <hr>
+        <!-- Item #2 -->
+        <div class="item">
+            <button class="delete-btn" type="button">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="product1" src="https://thumbs.dreamstime.com/b/hand-drawn-illustration-perfume-bottle-scent-mint-vector-64876115.jpg">
+            <span class="description">Mint perfume</span>
+            <button class="plus-btn">+</button>
+            <p class="Quantity">1</p>
+            <button class="sustraction-btn" type="button">-</button>
+            <span class="Prix_unitaire">15</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p2">15 </span>
+        </div>
+
+         <hr>
+        <!-- Item #3 -->
+        <div class="item">
+            <button class="delete-btn">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="product1" src="https://st2.depositphotos.com/5060145/8560/v/950/depositphotos_85601068-stock-illustration-hand-drawn-illustration-of-a.jpg">
+            <span class="description">Vanilla perfume</span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+          
+            <button class="sustraction-btn">-</button>
+            <span class="Prix_unitaire">25</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p3">25 </span>
+
+        </div>
+
+        
+  </section>
+  <div class="container">
+  <button class="delete-btn">X</button>
+  <span id="TP">Total price = <span id="total-price"> 60 </span><span id="TD">TD</span></span>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
